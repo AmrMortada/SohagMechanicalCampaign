@@ -65,9 +65,9 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
   // Example hardcoded credentials (replace with your own logic)
   if (username === "user1" && password === "123") {
-    window.location.href = "Opinion/user1.html"; // Redirect to user1's page
+    window.location.href = "Opinion/user1"; // Redirect to user1's page
   } else if (username === "user2" && password === "456") {
-    window.location.href = "Opinion/user2.html"; // Redirect to user2's page
+    window.location.href = "Opinion/user2"; // Redirect to user2's page
   } else {
     alert("Sorry, your username or password is incorrect");
   }
