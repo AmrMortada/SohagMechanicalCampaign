@@ -69,6 +69,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   } else if (username === "user2" && password === "456") {
     window.location.href = "Opinion/user2"; // Redirect to user2's page
   } else {
-    alert("Sorry, your username or password is incorrect");
+    alert("عذرًا، اسم المستخدم أو كلمة المرور الخاصة بك غير صحيحة");
   }
 });
