@@ -2529,7 +2529,7 @@
 	display: -webkit-flex;
 	display: -moz-box;
 	display: -ms-flexbox;
-	display: flex;
+	display: flow-root; /*************************************************************/
 	justify-content: space-between;
 }
 
@@ -2982,12 +2982,3 @@
 	right: 0px;
 	bottom: 0px;
 }
-
-
-
-
-
-
-
-
-
